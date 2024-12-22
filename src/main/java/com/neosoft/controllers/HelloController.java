@@ -10,4 +10,10 @@ public class HelloController {
     public String getHello(){
         return "Hello Moto";
     }
+
+
+    @GetMapping("/namaste")
+    public String getNamaste(){
+        return "Namaste India";
+    }
 }
